@@ -2,6 +2,8 @@
 
 Canonical source of truth for Lemali Consulting brand assets. Use this repo as a submodule or package dependency in any Lemali-branded project.
 
+**Website:** [lemaliconsulting.com](https://lemaliconsulting.com)
+
 ## Structure
 
 ```
