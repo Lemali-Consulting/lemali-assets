@@ -15,7 +15,6 @@ fonts/          # Font metadata and Google Fonts embed snippet
 styles/
   global.css    # Shared brand utilities (data-dots, grid patterns, dividers)
 favicons/       # favicon.svg, favicon.ico
-website-static/ # Git submodule — full marketing site source
 ```
 
 ## Logo Variants
