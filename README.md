@@ -28,6 +28,9 @@ website-static/ # Git submodule — full marketing site source
 | `wordmark-on-light.svg` | Bracket + "Lemali" | Light |
 | `icon-on-dark.svg` | Bracket + dot only | Dark (navy) |
 | `icon-on-light.svg` | Bracket + dot only | Light (white) |
+| `icon-transparent.svg` | Bracket + dot only | Transparent |
+| `*-on-dark-transparent.svg` | (primary / wordmark) | Transparent, white text for dark surfaces |
+| `*-on-light-transparent.svg` | (primary / wordmark) | Transparent, dark text for light surfaces |
 
 ## Colors
 

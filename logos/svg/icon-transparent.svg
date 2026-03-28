@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 22 30" width="44" height="60">
+  <!-- Lemali Consulting — Icon (T5): Bracket + Large Dot, transparent -->
+  <!-- No font dependency — fully portable -->
+
+  <!-- Bracket: 3px stroke, open right, 2.5px radius on left corners -->
+  <path d="M22 0 L2.5 0 A2.5 2.5 0 0 0 0 2.5 L0 27.5 A2.5 2.5 0 0 0 2.5 30 L22 30 L22 27 L3 27 L3 3 L22 3 Z" fill="#2563EB"/>
+
+  <!-- Amber dot: 8px diameter, centered vertically -->
+  <circle cx="17" cy="15" r="4" fill="#E5A920"/>
+</svg>
