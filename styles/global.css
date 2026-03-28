@@ -1,0 +1,109 @@
+/*
+ * Lemali Consulting — Shared Styles
+ *
+ * Extracted from website-static. Import this alongside your framework's
+ * CSS to get brand utilities without pulling in the full site stylesheet.
+ * Assumes Tailwind v4 is loaded separately if you want @theme to work;
+ * otherwise the CSS custom properties in colors/tokens.css are standalone.
+ */
+
+@import "../colors/tokens.css";
+
+/* ── Typography ───────────────────────────────────── */
+
+:root {
+  --font-sans: "IBM Plex Sans", ui-sans-serif, system-ui, sans-serif;
+  --font-mono: "IBM Plex Mono", ui-monospace, monospace;
+}
+
+.font-data {
+  font-family: var(--font-mono);
+  font-variant-numeric: tabular-nums;
+}
+
+/* ── Data-dot motif ───────────────────────────────── */
+
+.data-dot {
+  display: inline-block;
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: var(--color-amber);
+  flex-shrink: 0;
+}
+
+.data-dot-blue {
+  display: inline-block;
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: var(--color-brand-blue);
+  flex-shrink: 0;
+}
+
+/* ── Background patterns ──────────────────────────── */
+
+.bg-grid-dots {
+  background-image: radial-gradient(circle, rgba(255,255,255,0.04) 1px, transparent 1px);
+  background-size: 24px 24px;
+}
+
+.bg-grid-dots-warm {
+  background-image: radial-gradient(circle, rgba(15,29,47,0.035) 1px, transparent 1px);
+  background-size: 24px 24px;
+}
+
+.bg-graph-paper {
+  background-image:
+    linear-gradient(rgba(255,255,255,0.03) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(255,255,255,0.03) 1px, transparent 1px);
+  background-size: 20px 20px;
+}
+
+.bg-graph-paper-warm {
+  background-image:
+    linear-gradient(rgba(15,29,47,0.035) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(15,29,47,0.035) 1px, transparent 1px);
+  background-size: 20px 20px;
+}
+
+/* ── Dividers ─────────────────────────────────────── */
+
+.divider-hairline {
+  border: none;
+  height: 1px;
+  background: var(--color-navy-lighter);
+}
+
+.divider-grid {
+  border: none;
+  height: 1px;
+  background: repeating-linear-gradient(
+    90deg,
+    var(--color-navy-lighter) 0 4px,
+    transparent 4px 12px
+  );
+  margin: 2rem 0;
+}
+
+.divider-grid-cool {
+  border: none;
+  height: 1px;
+  background: repeating-linear-gradient(
+    90deg,
+    var(--color-cool-border) 0 4px,
+    transparent 4px 12px
+  );
+  margin: 2rem 0;
+}
+
+.divider-grid-warm {
+  border: none;
+  height: 1px;
+  background: repeating-linear-gradient(
+    90deg,
+    var(--color-warm-border) 0 4px,
+    transparent 4px 12px
+  );
+  margin: 2rem 0;
+}

@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 88 30" width="176" height="60">
+  <!-- Lemali Consulting — Wordmark (for light backgrounds) -->
+  <!-- Requires IBM Plex Sans (Google Fonts) -->
+  <defs>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@600&amp;display=swap');
+    </style>
+  </defs>
+
+  <!-- Bracket -->
+  <path d="M22 0 L2.5 0 A2.5 2.5 0 0 0 0 2.5 L0 27.5 A2.5 2.5 0 0 0 2.5 30 L22 30 L22 27 L3 27 L3 3 L22 3 Z" fill="#2563EB"/>
+  <circle cx="17" cy="15" r="3" fill="#E5A920"/>
+
+  <!-- Wordmark -->
+  <text x="32" y="20" font-family="'IBM Plex Sans', sans-serif" font-weight="600" font-size="18" letter-spacing="-0.18" fill="#0F1D2F">Lemali</text>
+</svg>
