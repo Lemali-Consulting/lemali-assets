@@ -26,7 +26,8 @@ website-static/ # Git submodule — full marketing site source
 | `primary-on-light.svg` | Bracket + "Lemali" + "Consulting" | Light (white/cream) |
 | `wordmark-on-dark.svg` | Bracket + "Lemali" | Dark |
 | `wordmark-on-light.svg` | Bracket + "Lemali" | Light |
-| `icon.svg` | Bracket + dot only | Any |
+| `icon-on-dark.svg` | Bracket + dot only | Dark (navy) |
+| `icon-on-light.svg` | Bracket + dot only | Light (white) |
 
 ## Colors
 
