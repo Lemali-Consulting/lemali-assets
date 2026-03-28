@@ -7,7 +7,7 @@ Canonical source of truth for Lemali Consulting brand assets. Use this repo as a
 ```
 logos/
   svg/          # SVG logo variants (primary, wordmark, icon; on-dark and on-light)
-  png/          # PNG exports for OG/social meta tags
+  png/          # PNG renders of each SVG variant (for OG/social meta tags)
 colors/
   tokens.json   # Color tokens as JSON (for tooling, design systems)
   tokens.css    # CSS custom properties
